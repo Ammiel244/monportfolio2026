@@ -8,3 +8,7 @@
 --gris-foncer:#666;
 --gris-tres-calir:#f8f8f8;
 --gris-clair:#eee;
+}
+h1{
+    color: var(--violet-fonce);
+}
