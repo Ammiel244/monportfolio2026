@@ -8,11 +8,12 @@
 --gris-foncer:#666;
 --gris-tres-calir:#f8f8f8;
 --gris-clair:#eee;
+}
 
 
 body{
-    background-color; var(--gris-tres-calir),
-    font-family: roboto, sans-serif
+    background-color: var(--gris-tres-calir);
+    font-family:roboto, sans-serif;
     line-height: 1.6;
 }
 
@@ -76,6 +77,7 @@ ul li a:hover::after{
 a.Active:after{
     width: 100%;
 }
+
 section.hero {
     display: flex;
     justify-content: center;
@@ -90,7 +92,7 @@ section.hero {
     width: 300px;
     height: 300px;
     object-fit: cover;
-    border-radius: 50px;
+    border-radius: 300px;
     border: 8px solid var(--violet-doux);
 }
 
@@ -122,15 +124,25 @@ section.hero {
     transition: backgroud-color 0.3s ease,transform 0.1s ease;
 
 }
+
 .hero a:hover {
     background-color: var(--violet-fonce);
     transform: translate(-3px);
 }
- .apropos h2{
+
+.apropos h2{
     width: 800px;
     margin: 6rem auto;
     text-align: center;
+}
+
+.apropos p{
+    margin: bottom 2rem;
+    color: var(--gris-foncer);
+    font-size: 1.3rem;
+    text-align: center;
  }
+ 
  section h2{
     color: var(--violet-doux);
     font-size: 2.6rem;
@@ -138,6 +150,7 @@ section.hero {
     position: relative;
     text-align: center;
  }
+ 
  section h2::after{
     content: '';
     display: block;
@@ -148,8 +161,67 @@ section.hero {
     border-radius: 2px;
  }
 
- .apropos p{
-    margin: bottom 2re;
-    color: var(--gris-foncer);
-    font-size: 1.2rem;
+ .competences table{
+    width: 80px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #FFF;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0,08);
+    border-radius: 10px;
+    overflow: hidden;
+
  }
+.competences table th,.competences table td{
+    padding: 15px;
+}
+
+.competences table thead{
+    background-color: var(--violet-doux);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.competences table tbody td{
+    border-bottom: 1px solid var(--gris-clair);
+    */* ajouter une bordure de 1px en bas de chaque cellule*/*
+    border-bottom: 1px solid var(--gris-clair);
+}
+
+.competences table thead tr:nth-child(ever) {
+    background-color: #fdfdfd;
+}
+
+.competences table tbody tr{
+    transition: backgroud-color 0.3s ease;
+}
+
+.competences table tbody tr:hover{
+    background-color: #f0f0f0;
+}
+.competences table thead th{
+    text-align: left;
+}
+
+footer{
+    margin-top: 3rem;
+    background-color: var(--violet-doux);
+    padding: 3rem;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    margin-bottom: 1.2rem;
+}
+footer a{
+    display: inline;
+    font-size: 1.6rem;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s ease,tranform 0.2s ease;
+}
+
+footer a:hover{
+    color: var(--orange-vif);
+    transform: translate(-3px);
+}
