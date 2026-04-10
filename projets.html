@@ -1,44 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portfolio</title>
+    <title>Mes Projets - Ammiel Kbg</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div>
-            <a href="">Mon portfolio</a>
+            <a href="index.html">Mon portfolio</a>
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="Projets.html"class="active">Projets</a></li>
-                <li><a href="Passions.html">Passions</a></li>
-                <li><a href="Divertissement.html">Divertissement</a></li>
+                <li><a href="index.html">accueil</a></li>
+                <li><a href="projets.html" class="active">projets</a></li>
+                <li><a href="passions.html">passions</a></li>
+                <li><a href="divertissement.html">divertissement</a></li>
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-<main>
-    <h1>
-        Voici sur quoi j'ai travaillé
-    </h1>
-</main>
-<footer>
-    <P>
-     &copy; 2026 Ammiel. Tous droits resérvés.
-     <P>
-    <div>
-        <a href=""><i class="fa-brands fa-github"></i></a>
-        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
-        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-    </div>
-</footer>
+
+    <main>
+        <section class="projets-hero">
+            <div>
+                <h1>Mes Projets</h1>
+                <p>Découvrez mes réalisations en développement web et design</p>
+            </div>
+        </section>
+
+        <section class="projets-section">
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="image/15.jpg" alt="Portfolio Personnel" class="card-image">
+                    <div class="card-content">
+                        <h3>Portfolio Personnel</h3>
+                        <p>Site vitrine moderne réalisé avec HTML5, CSS3 et JavaScript vanilla. Design responsive et animations fluides.</p>
+                        <div class="tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fas fa-eye"></i> Voir démo</a>
+                        <a href="#"><i class="fab fa-github"></i> Code source</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="image/Application Météo.jpg" alt="To-Do List App" class="card-image">
+                    <div class="card-content">
+                        <h3>Application To-Do List</h3>
+                        <p>Application de gestion de tâches avec localStorage, drag & drop et design Material. Fonctionnalités complètes.</p>
+                        <div class="tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">LocalStorage</span>
+                            <span class="tag">Drag & Drop</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fas fa-eye"></i> Voir démo</a>
+                        <a href="#"><i class="fab fa-github"></i> Code source</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="image/Blog personnel.jpg" alt="Landing Page E-commerce" class="card-image">
+                    <div class="card-content">
+                        <h3>Landing Page E-commerce</h3>
+                        <p>Page de vente responsive avec animations CSS, carrousel et formulaire de contact intégré.</p>
+                        <div class="tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">Animations</span>
+                            <span class="tag">Carrousel</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fas fa-eye"></i> Voir démo</a>
+                        <a href="#"><i class="fab fa-github"></i> Code source</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="image/commerce.jpeg" alt="Quiz Interactif" class="card-image">
+                    <div class="card-content">
+                        <h3>Quiz Interactif</h3>
+                        <p>Jeu quiz éducatif avec système de score, timer et feedback instantané. 100+ questions.</p>
+                        <div class="tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Game</span>
+                            <span class="tag">Timer</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fas fa-eye"></i> Voir démo</a>
+                        <a href="#"><i class="fab fa-github"></i> Code source</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="image/Dashboard d'Analyse.jpg" alt="Calculatrice Scientifique" class="card-image">
+                    <div class="card-content">
+                        <h3>Calculatrice Scientifique</h3>
+                        <p>Calculatrice avancée avec toutes les fonctions mathématiques, historique et mode sombre.</p>
+                        <div class="tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Math</span>
+                            <span class="tag">Dark Mode</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fas fa-eye"></i> Voir démo</a>
+                        <a href="#"><i class="fab fa-github"></i> Code source</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="image/Gestionnaire de taches.jpg" alt="Générateur de Mèmes" class="card-image">
+                    <div class="card-content">
+                        <h3>Générateur de Mèmes</h3>
+                        <p>Outil fun pour créer des mèmes personnalisés avec Canvas API et téléchargement direct.</p>
+                        <div class="tags">
+                            <span class="tag">Canvas API</span>
+                            <span class="tag">Download</span>
+                            <span class="tag">Fun</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fas fa-eye"></i> Voir démo</a>
+                        <a href="#"><i class="fab fa-github"></i> Code source</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ammiel, Tous droits réservés.</p>
+        <div>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
 </body>
 </html>

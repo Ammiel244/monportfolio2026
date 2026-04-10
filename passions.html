@@ -1,44 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portfolio</title>
+    <title>Mes Passions - Ammiel Kbg</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div>
-            <a href="">Mon portfolio</a>
+            <a href="index.html">Mon portfolio</a>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="Projets.html">Projets</a></li>
-                <li><a href="Passions.html"class="active">Passions</a></li>
-                <li><a href="Divertissement.html">Divertissement</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="passions.html" class="active">Passions</a></li>
+                <li><a href="divertissement.html">Divertissement</a></li>
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-<main>
-    <h1>
-        voici ce que j'aime
-    </h1>
-</main>
-<footer>
-    <P>
-     &copy; 2026 Ammiel. Tous droits resérvés.
-     <P>
-    <div>
-        <a href=""><i class="fa-brands fa-github"></i></a>
-        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
-        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-    </div>
-</footer>
+
+    <main>
+        <section class="passions-hero">
+            <div>
+                <h1>Voici ce que j'aime</h1>
+                <p>Mes passions qui me motivent chaque jour</p>
+            </div>
+        </section>
+
+        <section class="passions-section">
+            <div class="passions-grid">
+                <div class="passion-card">
+                    <div class="passion-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Développement Web</h3>
+                    <p>Créer des sites et applications modernes avec HTML, CSS, JavaScript. J'adore transformer des idées en réalité digitale.</p>
+                    <div class="passion-stats">
+                        <span>500+</span>
+                        <small>heures de code</small>
+                    </div>
+                </div>
+
+                <div class="passion-card">
+                    <div class="passion-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Intelligence Artificielle</h3>
+                    <p>Explorer Python, Machine Learning et ChatGPT. L'IA va révolutionner notre monde et j'adore apprendre ses secrets.</p>
+                    <div class="passion-stats">
+                        <span>3+</span>
+                        <small>projets IA</small>
+                    </div>
+                </div>
+
+                <div class="passion-card">
+                    <div class="passion-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Design UI/UX</h3>
+                    <p>Créer des interfaces intuitives avec Figma. Le design c'est 50% de la réussite d'un projet web.</p>
+                    <div class="passion-stats">
+                        <span>25+</span>
+                        <small>interfaces</small>
+                    </div>
+                </div>
+
+                <div class="passion-card">
+                    <div class="passion-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Jeux Vidéo</h3>
+                    <p>Développer des petits jeux avec JavaScript Canvas. Le game dev c'est le summum de la créativité technique.</p>
+                    <div class="passion-stats">
+                        <span>8+</span>
+                        <small>jeux créés</small>
+                    </div>
+                </div>
+
+                <div class="passion-card">
+                    <div class="passion-icon">
+                        <i class="fas fa-book-reader"></i>
+                    </div>
+                    <h3>Apprentissage</h3>
+                    <p>FreeCodeCamp, Udemy, YouTube. Je dévore les tutos et challenges pour progresser sans cesse.</p>
+                    <div class="passion-stats">
+                        <span>100+</span>
+                        <small>heures formation</small>
+                    </div>
+                </div>
+
+                <div class="passion-card">
+                    <div class="passion-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Musique Electronique</h3>
+                    <p>Écouter du techno et créer des beats. La musique booste ma créativité en coding !</p>
+                    <div class="passion-stats">
+                        <span>200+</span>
+                        <small>heures d'écoute</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ammiel. Tous droits réservés.</p>
+        <div>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
 </body>
 </html>
